@@ -8,8 +8,8 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "0e61bd3790a25a856c8cb99d7222909256496ce2a12519b954773b8121675af7"
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["SERPAPI_API_KEY"] = ""
 
 def read_text(pdfreader):
 	raw_text = ''
